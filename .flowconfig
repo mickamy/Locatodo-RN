@@ -2,6 +2,10 @@
 ; We fork some components by platform
 .*/*[.]android.js
 
+; Ignore files under for platforms
+<PROJECT_ROOT>/android/
+<PROJECT_ROOT>/ios/
+
 ; Ignore "BUCK" generated dirs
 <PROJECT_ROOT>/\.buckd/
 
