@@ -4,8 +4,12 @@
     "airbnb"
   ],
   "plugins": [
+    "jest",
     "flowtype"
   ],
+  "env": {
+    "jest/globals": true,
+  },
   "globals": {
     fetch: true
   },
